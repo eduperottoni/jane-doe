@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 26vh;
+    background-color: rgba(245, 170, 31, 0.9);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 0 0 10px #808080;
+}
+
+header h1 {
+    color:#e03630;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem auto 0.5rem;
+}
+
+nav {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    width: 70vw;
+    height:5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul div{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul div a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #808080;
+}
+
+nav .menu-pages{
+    list-style-type: none;
+    margin: 0.5rem;
+}
+
+footer {
+
+    background-color:#808080;
+    font-weight: 400;
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    bottom:0;
+    top: 2rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav ul li a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    color: #e03630;
+    background-color: rgba(224, 224, 222, 0.5);
+}
+
+@media (min-width: 1024px){
+    header {
+        height: 20vh;
+        position: fixed;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    nav ul div{
+        width: 50%;
+        flex-direction: row;
+
+    }
+
+    footer {
+        position: relative;
+        top:30vh;
+    }
+
+}
