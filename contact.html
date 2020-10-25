@@ -9,36 +9,36 @@
 
     <link rel="icon" href="./img/music-icon.png">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/contact.html">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
     <header>
         <h1>Jane Doe</h1>
-        <nav>
-            <ul>
-                <div class="home-about">
-                    <li class='menu-pages' id='home'><a href='./index.html'>Home</a></li>
-                    <li class='menu-pages' id='about'><a href='./about.html'>About</a></li>
-                </div>
-                <div class="music-contact">
-                    <li class='menu-pages' id='music'><a href='./music.html'>Music</a></li>
-                    <li class='menu-pages' id='contact'><a href='./contact.html'>Contact</a></li>
-                </div>
-            </ul>   
-        </nav>
+        <ul>
+            <li class='menu-pages' id='home'><a href='./index.html'>Home</a></li>
+            <li class='menu-pages' id='about'><a href='./about.html'>About</a></li>
+            <li class='menu-pages' id='music'><a href='./music.html'>Music</a></li>
+            <li class='menu-pages' id='contact'><a href='./contact.html'>Contact</a></li>
+        </ul>   
     </header>
     <main>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <div class='form-map'>
             <form action="">
-                <label for="name">Nome</label>
-                <input type="text" id='name'>
+                <div class="input-contact">
+                    <label for="name">Name</label>
+                    <input type="text" id='name'>
+                </div>
 
-                <label for="email">E-mail</label>
-                <input type="email" id='email'></input>
+                <div class="input-contact">
+                    <label for="email">E-mail</label>
+                    <input type="email" id='email'></input>
+                </div>
 
-                <label for="input">Message</label>
-                <input type="textarea"></input>
+                <div class="input-contact">
+                    <label for="input">Message</label>
+                    <textarea type='text'></textarea>
+                </div>
 
                 <div class="social-media-question">
                     <p>How did you found Jane's music?</p>
@@ -56,9 +56,8 @@
                     </div>
                     <div class="newsletter">
                         <input type='checkbox' id='choose-newsletter'>
-                        <label for="choose-newsletter">Do you want to subscribe to our newslwtter?</label>
+                        <label for="choose-newsletter" id='newsletter'>Do you want to subscribe to our newslwtter?</label>
                     </div>
-
                     <button type="submit">Send</button>
                 </div>
             </form>
@@ -71,29 +70,29 @@
 
         <section class='contacts'>
             <div class="contact-name">
-                <h2>MANAGEMENT | Karen Blanche</h2>
+                <h3>MANAGEMENT | Karen Blanche</h3>
                 <p>email: <a href=''>info@mysite.com</a></p>
                 <p>phone: <a href=''>123-456-7890</a></p>
             </div>
             <div class="contact-name">
-                <h2>BOOKING | Daniel Ku</h2>
+                <h3>BOOKING | Daniel Ku</h3>
                 <p>email: <a href=''>info@mysite.com</a></p>
                 <p>phone: <a href=''>123-456-7890</a></p>
             </div>
             <div class="contact-name">
-                <h2>LABEL | Wix Records, Jake Coldham</h2>
+                <h3>LABEL | Wix Records, Jake Coldham</h3>
                 <p>email: <a href=''>info@mysite.com</a></p>
                 <p>phone: <a href=''>123-456-7890</a></p>
             </div>
             <div class="contact-name">
-                <h2>PR | That Girl Pr, Sarah Brookstone</h2>
+                <h3>PR | That Girl Pr, Sarah Brookstone</h3>
                 <p>email: <a href=''>info@mysite.com</a></p>
                 <p>phone: <a href=''>123-456-7890</a></p>
             </div>
         </section>
     </main>
     <footer>
-        <p>Copyright - Jane Doe</p>
+        <p>Copyright - Jane Doe ®</p>
     </footer>
 </body>
 </html>

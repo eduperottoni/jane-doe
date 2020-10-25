@@ -57,10 +57,12 @@ header ul li a{
 
 header ul li:hover{
     background-color: #dfdfdf;
+    transition: 0.25s;
 }
 
 header ul li a:hover{
-    color: rgb(240, 45, 45);   
+    color: rgb(240, 45, 45);
+    transition: 0.25s;
 }
 
 main h2{

@@ -1,0 +1,84 @@
+header ul #contact a{
+    color: rgb(240, 45, 45)
+}
+main {
+    padding-top:120px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-map{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-map .input-contact{
+    margin:10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-map .input-contact input{
+    height: 30px;
+}
+
+.form-map .input-contact textarea{
+    width:100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.form-map .social-media-question{
+    margin:10px;
+}
+
+.form-map .social-media-question .newsletter{
+    margin: 10px 0 10px;
+}
+
+.form-map .input-contact label, .social-media-question #newsletter, .social-media-question p{
+    font-weight: 600;
+}
+
+
+.form-map iframe{
+    width: 100%;
+} 
+
+button{
+    border:none;
+    padding: 5px 10px;
+    background-color: rgb(240, 45, 45);
+    color: #dfdfdf;
+}
+
+section{
+    margin: 15px;
+    width: 80%;
+}
+
+button:hover{
+    background-color: #dfdfdf;
+    color: rgb(240, 45, 45);
+    transition:0.5s;
+}
+
+@media (min-width:700px){
+    .form-map{
+        display: flex;
+        flex-direction: row;
+    }
+    form{
+        width:40%;
+    }
+    .form-map .input-contact textarea{
+        width:100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

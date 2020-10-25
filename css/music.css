@@ -1,0 +1,33 @@
+header ul #music a{
+    color: rgb(240, 45, 45)
+}
+
+main{
+    padding-top:120px;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+main iframe{
+    width: 80%;
+}
+
+main .music-list-music{
+    width:80%;
+    margin:15px 0;
+}
+
+main .music-list-music strong{
+    color: rgb(218, 150, 4);
+}
+
+main .video-description{
+    margin:10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
