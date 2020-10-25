@@ -1,5 +1,44 @@
+main #jane-doe{
+    width: 100%;
+    margin-top: 115px;
+}
 
+main img{
+    width: 100%;
+    margin: 5px auto;
+}
 
+.description, .music-list-img{
+    font-size:1.2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.music-list{
+    margin-left: 20px;
+    line-height: 1.8rem;
+}
+
+.music-list a{
+    text-decoration: none;
+    font-size:1.2rem;
+    font-weight: 600;
+    color: rgb(218, 150, 4);
+}
+
+.music-list a:hover{
+    color: rgb(240, 45, 45);
+}
+
+@media (min-width:700px){
+    .music-list-img img{
+        width:50%;
+    }
+    .music-list{
+        display:flex;
+        align-items: center;
+    }
+}
 
 
 

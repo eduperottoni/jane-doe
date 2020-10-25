@@ -14,21 +14,15 @@
 <body>
     <header>
         <h1>Jane Doe</h1>
-        <nav>
-            <ul>
-                <div class="home-about">
-                    <li class='menu-pages' id='home'><a href='./index.html'>Home</a></li>
-                    <li class='menu-pages' id='about'><a href='./about.html'>About</a></li>
-                </div>
-                <div class="music-contact">
-                    <li class='menu-pages' id='music'><a href='./music.html'>Music</a></li>
-                    <li class='menu-pages' id='contact'><a href='./contact.html'>Contact</a></li>
-                </div>
-            </ul>   
-        </nav>
+        <ul>
+            <li class='menu-pages' id='home'><a href='./index.html'>Home</a></li>
+            <li class='menu-pages' id='about'><a href='./about.html'>About</a></li>
+            <li class='menu-pages' id='music'><a href='./music.html'>Music</a></li>
+            <li class='menu-pages' id='contact'><a href='./contact.html'>Contact</a></li>
+        </ul>   
     </header>
     <main>
-        <img src="./img/jane.jpg" alt="Jane Doe's photo">
+        <img id='jane-doe' src="./img/jane.jpg" alt="Jane Doe's photo">
 
         <section>
             <article class='description'>
@@ -37,9 +31,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima ratione, quidem expedita reiciendis voluptatem veritatis quo aut! Sapiente sequi ab obcaecati? Sed, inventore. Impedit neque deserunt quae architecto ab?</p>
             </article>
 
-            <article>
-                <img src="./img/ilustra.png" alt="Ilustração menina ouvindo música">
+            <article class='music-list-img'>
                 <div class="music-list">
+                    <img src="./img/ilustra.png" alt="Ilustração menina ouvindo música">
                     <ol>
                         <li class="music-titles"><a href='./music.html'>Organic Love</a> | 02:40</li>
                         <li class="music-titles"><a href='./music.html'>Twist in My Reality</a> | 02:10</li>
@@ -51,7 +45,7 @@
         </section>
     </main>
     <footer>
-        <p>Copyright - Jane Doe</p>
+        <p>Copyright - Jane Doe ®</p>
     </footer>
 </body>
 </html>
