@@ -2,12 +2,12 @@
 
 ## Descrição do projeto
 
-<p align='justify'>Projeto desenvolvido durante o curso de **Desenvolvimento Web** da **Estação Hack (Facebook)**</p>
+<p align='justify'>Projeto desenvolvido durante o curso de <strong>Desenvolvimento Web</strong> da <strong>Estação Hack (Facebook)</strong></p>
 
 ## Funcionalidades da aplicação 
-- [] Responsividade
-- [] Menu de navegação pelas páginas **Home**, **About**, **Music**, **Contact**
-- [] Mapa interativo na página **Contact**
+- [X] Responsividade
+- [X] Menu de navegação pelas páginas **Home**, **About**, **Music**, **Contact**
+- [X] Mapa interativo na página **Contact**
 
 ## Recursos utilizados
 - Mapa interativo do Google Maps
